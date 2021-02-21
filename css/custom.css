@@ -1,0 +1,24 @@
+body {
+	padding-top: 50px;
+}
+.navbar-red {
+	background-color: #FF0004;
+	border-color: #670001;
+}
+.carousel-caption{
+	bottom:auto;
+	top:50%;
+	transform:translateY(-50%);
+}
+.carousel-indicators{
+	bottom:-10px;	
+}
+/*.nav-tabs>li{
+	float:right;	
+}
+.tab-pane{
+	text-align:right;
+}*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border-top:3px solid #2CB3FF;
+}
